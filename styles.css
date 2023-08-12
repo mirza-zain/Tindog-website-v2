@@ -1,0 +1,241 @@
+#title {
+    background-color: bisque;
+    color: aliceblue;
+}
+
+.title-heading {
+    font-family: 'Montserrat-Bold';
+    font-size: 4rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 100px;
+}
+
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.title-image {
+
+    transform: rotate(30deg);
+    position: absolute;
+
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(245, 229, 229);
+    position: relative;
+
+}
+
+.feature-heading {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+
+}
+
+.icon {
+    color: rgb(233, 114, 114);
+}
+
+.icon:hover {
+    color: red;
+    transition: 1s;
+}
+
+p {
+
+    color: #8f8f8f;
+}
+
+.testimonials {
+    background-color: bisque;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'montserrat';
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.testimonial-h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2.9rem;
+    font-weight: 1200;
+}
+
+.testimonial-image {
+    width: 110px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: bisque;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(245, 229, 229);
+
+}
+
+.pricing-h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2.9rem;
+    font-weight: 1200;
+    margin-bottom: 20px;
+
+}
+
+.card {
+    height: 370px;
+
+
+}
+
+.btn {
+
+    margin-top: 39px;
+}
+
+.sign-btn {
+
+    margin-top: -0px;
+}
+
+.card-header {
+    color: brown;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-heading {
+        padding-left: 0%;
+        font-size: 45px;
+    }
+
+    .title-icons {
+        height: 60px;
+        width: 250px;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+
+    .title-image {
+        position: static;
+        transform: none;
+        margin-left: 45px;
+    }
+
+    .testimonial-h2 {
+        font-size: larger;
+    }
+}
+
+@media (max-width:1250px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-heading {
+        padding-left: 1%;
+    }
+
+    .download {
+        padding-right: 100px;
+    }
+
+    .title-image {
+        position: static;
+        transform: none;
+        margin-left: 100px;
+    }
+
+    .testimonial-h2 {
+        font-size: larger;
+    }
+    #cta .cta-heading{
+        font-size: 40px;
+    }
+}
+
+#cta {
+    background-color: bisque;
+    color: aliceblue;
+    font-family: 'Montserrat-Bold';
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-size: 3.75rem;
+    font-weight: 1000;
+    margin-bottom: 50px;
+}
+
+.endbtn {
+    margin-right: 30px;
+}
+
+#footer {
+    background-color: #ededed;
+    padding: 12% 15%;
+    text-align: center;
+}
+
+.twitter {
+    margin-right: 15px;
+}
+
+.twitter:hover {
+    color: rgb(99, 180, 255);
+    transition: 1sec;
+}
+
+.instagram {
+    margin-right: 15px;
+}
+
+.instagram:hover {
+    color: rgb(233, 28, 79);
+    transition: 1sec;
+}
+
+.facebook {
+    margin-right: 15px;
+}
+
+.facebook:hover {
+    color: rgb(27, 128, 223);
+    transition: 1sec;
+}
+
+.envelop {
+    margin-right: 15px;
+}
+
+.envelop:hover {
+    color: rgb(41, 189, 0);
+    transition: 1sec;
+}
