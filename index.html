@@ -1,63 +1,42 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-
 <body>
-
-  <section id="title">
-
-    <!-- Nav Bar -->
-
+  <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="">Tindog</a>
+      <a class="navbar-brand" href="#title">TINDOG</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#innav"
         aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="innav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#footer">contact</a>
+            <a class="nav-link" href="#cta">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">pricing</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cta">download</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-
-    <div class="container-fluid">
-      <!-- Title -->
+<!-- Title -->
+<section id="title">
+    <div class="container">
       <div class="row">
-        <div class="culumn col-lg-6 col-sm-6" style="padding-left: 15%; padding-top: 5%;">
-          <h1 class="title-heading">Meet new and interesting dogs nearby.</h1>
+        <div class="col-md-6" style="padding-top: 5%;">
+          <h1 class="title-heading text-center">Meet new and interesting dogs nearby.</h1>
           <div class="download" style="padding-left: 100px; padding-top: 20px;">
             <button type="button" class="title-icons btn-dark btn-lg"><i class="fa fa-apple"
                 style="padding-right: 5px;"></i>Download</button>
@@ -65,31 +44,29 @@
                 style="padding-right: 5px;"></i>Download</button>
           </div>
         </div>
-        <div class="col-lg-6 col-sm-6" style="padding-right: 15%; padding-top: 5%;">
-          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup" width="300" height="600">
+        <div class="col-md-6">
+          <img class="title-img" src="iphone6.png" alt="iphone-mockup" width="300px" height="500px">
         </div>
       </div>
     </div>
-  </section>
+</section>
 
 
   <!-- Features -->
-
   <section id="features">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-md-4">
           <h3 class="feature-heading"><i class="icon fa fa-check-circle" style="font-size:100px;"></i><br>Easy to use.
           </h3>
           <p>So easy to use, even your dog could do it.</p>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-
+        <div class="col-md-4">
           <h3 class="feature-heading"><i class="icon fa fa-bullseye" style="font-size:100px;"></i><br>Elite Clientele
           </h3>
           <p>We have all the dogs, the greatest dogs.</p>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-md-4">
           <h3 class="feature-heading"><i class="icon fa fa-heart" style="font-size:100px;"></i><br>Guaranteed to work.
           </h3>
           <p>Find the love of your dog's life or your money back.</p>
@@ -102,7 +79,6 @@
   <!-- Testimonials -->
 
   <section class="testimonials">
-
     <div id="carouselId" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselId" data-slide-to="0" class="active"></li>
@@ -112,13 +88,13 @@
         <div class="carousel-item active">
           <h2 class="testimonial-h2">I no longer have to sniff other dogs for love. I've found the hottest Corgi on
             TinDog. Woof.</h2>
-          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <img class="testimonial-image" src="dog-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
         <div class="carousel-item">
           <h2 class="testimonial-h2">My dog used to be so lonely, but with TinDog's help, they've found the love of
             their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <img class="testimonial-image" src="lady-img.jpg" alt="lady-profile">
           <em>Beverly, Illinois</em>
         </div>
       </div>
@@ -138,10 +114,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img class="press-logo " src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo " src="techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="mashable.png" alt="mashable-logo">
 
   </section>
 
@@ -225,8 +201,13 @@
     <p>© Copyright TinDog</p>
 
   </footer>
-
+  <!-- jQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
-
 </html>
