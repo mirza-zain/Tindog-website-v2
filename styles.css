@@ -9,9 +9,11 @@ body {
 }
 
 .title-heading {
-    font-size: 4.5rem;
-    font-weight: bold;
+    font-size: 4.2rem;
+    font-weight: 700;
     margin-top: 5%;
+    padding-left: 5%;
+    text-align: center;
 }
 
 .title-img {
@@ -21,14 +23,13 @@ body {
     height: 75%;
     margin-top: 10%;
 }
-
 @media screen and (min-width: 768px) {
     .title-img {
         transform: rotate(0deg);
         margin-left: 150px;
     }
     #title .btn {
-        padding-inline: 15%;
+        padding-inline: 25%;
     }
 }
 
@@ -40,7 +41,6 @@ body {
 }
 
 .feature-heading {
-    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 1.75rem;
     font-weight: 800;
 
